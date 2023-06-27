@@ -1,0 +1,297 @@
+.homepage {
+  width: 60%;
+  height: 100%;
+  font-size: 15px;
+  font-family: Inter;
+  margin: 3% 0% 0% 20%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-heading {
+  font-family: Inter sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.tabs {
+  color: hsl(236, 13%, 42%);
+  font-size: 13px;
+}
+
+.tabs span {
+  margin-left: 35px;
+}
+
+.tabs span:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 2%;
+}
+
+.left-content img {
+  width: 100%;
+}
+
+.left-content {
+  display: flex;
+}
+
+.imgCover {
+  width: 65%;
+  margin-right: 3%;
+}
+
+.news {
+  width: 28%;
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%, 0.8);
+  display: grid;
+  padding: 3% 2% 3% 2%;
+}
+
+.heading-news {
+  color: hsl(35, 77%, 62%);
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+
+.news-column {
+  display: grid;
+  padding-top: 8%;
+}
+
+.news-column-heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4%;
+}
+
+.news-column-heading:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+.news-column-data {
+  font-size: 13px;
+}
+
+.line {
+  border-bottom: 1px solid hsl(36, 100%, 99%, 0.3);
+  padding-bottom: 8%;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 1%;
+}
+
+.question {
+  font-size: 40px;
+  font-weight: 800;
+  margin-right: 8%;
+}
+
+.answers {
+  font-size: 13px;
+  line-height: 1.5em;
+  display: grid;
+  color: hsl(236, 13%, 42%, 0.8);
+}
+
+.read-more {
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  border: 0px;
+  width: 50%;
+  height: 73%;
+  font-size: 15px;
+}
+
+.read-more:hover {
+  background-color: hsl(240, 100%, 5%);
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 5%;
+  display: flex;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.container img {
+  width: 80%;
+}
+
+.foot-content {
+  display: grid;
+}
+
+.num {
+  font-size: 20px;
+  font-weight: 900;
+  color: hsl(236, 13%, 42%, 0.4);
+}
+
+.foot-heading {
+  font-weight: 800;
+}
+
+.foot-heading:hover {
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+
+.foot-data {
+  font-size: 13px;
+  color: hsl(236, 13%, 42%, 0.8);
+}
+
+.mob-homepage {
+  font-family: Inter;
+  font-size: 15px;
+  padding: 6% 5% 0% 5%;
+}
+
+.mob-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mob-heading span {
+  font-family: Inter sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.slider-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  z-index: 9999;
+  pointer-events: none;
+  background-color: hsl(36, 100%, 99%);
+}
+
+.slider-content {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  pointer-events: auto;
+  display: grid;
+  padding: 11% 0% 0% 10%;
+}
+
+.slider-content span {
+  margin-bottom: 15%;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.slider-content img {
+  margin-left: 80%;
+  margin-bottom: 30%;
+}
+
+.mob-question img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.mob-question {
+  display: grid;
+}
+
+.mob-question-heading {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+  margin-top: 10%;
+}
+
+.mob-answer {
+  line-height: 1.5;
+  margin-top: 5%;
+}
+
+.mob-read-more {
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  border: 0px;
+  width: 50%;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 8%;
+}
+
+.mob-news {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%, 0.8);
+  display: grid;
+  padding: 7% 5% 3% 5%;
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+
+.mob-heading-news {
+  color: hsl(35, 77%, 62%);
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.mob-news-column-heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4%;
+}
+
+.mob-news-column {
+  display: grid;
+  padding-top: 8%;
+}
+
+.mob-news-column-data {
+  font-size: 13px;
+}
+
+.mob-footer-content {
+  display: flex;
+  margin-bottom: 8%;
+}
+
+.mob-container img {
+  width: 100px;
+}
+
+.mob-foot-content {
+  display: grid;
+  margin-left: 5%;
+}
+
+.backdrop {
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.fixed {
+  position: fixed;
+}
